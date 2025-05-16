@@ -1,15 +1,3 @@
-
-## 📌 Introduction
-
-**Happy-rPPG Toolkit** is designed to facilitate the research and evaluation of rPPG signal extraction methods in challenging **night-time dynamic lighting** environments. It integrates:
-
-- A novel dataset: **DCLN**
-- Multiple state-of-the-art rPPG algorithms
-- A modular, reproducible pipeline for training, validation, and cross-dataset testing
-
-
-
-
 ## 🧠 Dataset: DCLN
 
 **DCLN (Dynamic-lighting Conditions at Night)** is a dataset collected specifically for rPPG signal evaluation under complex lighting environments.
