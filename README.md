@@ -1,44 +1,39 @@
-## 🧠 Dataset: DCLN
+## 📌 Dataset: DLCN
 
-**DCLN (Dynamic-lighting Conditions at Night)** is a dataset collected specifically for rPPG signal evaluation under complex lighting environments.
+**DLCN (Dynamic-lighting Conditions at Night)** is a dataset collected specifically for rPPG signal evaluation under complex lighting environments.
 
-### ✅ Key Features
+### 💾  Dataset Structure
+> 🗂 File Format: `.h5`. All sample data are stored in individual directories, such as `P001`. Each directory contains eight subfolders named `v01` to `v08`, corresponding to data collected under different scenarios. The details are as follows:
 
-- **60 volunteers**, each recorded under 4 lighting setups:
-  1. Fixed intensity and fixed position
-  2. Varying intensity and fixed position
-  3. Fixed intensity and moving position
-  4. Varying intensity and moving position
-- **480 video samples**, covering both **rest** and **post-exercise** states
-- Captured in a **darkroom** with synchronized physiological signal acquisition
+- **For the two states during the preparation phase:**
+  - `v01` to `v04`: Data from the **rest state**
+  - `v05` to `v08`: Data from the **exerce state**
 
-> 💾 File Format: `.h5`  
-> 🗂 Naming Convention: `P1_1` ~ `P60_8`
+- **For different lighting conditions:**
+  - `v01`, `v05`: Fixed Intensity & Fixed Position (**FI & VI**)
+  - `v02`, `v06`: Varying Intensity & Fixed Position (**FI & VI**)
+  - `v03`, `v07`: Fixed Intensity & Varying Position (**FI & VI**)
+  - `v04`, `v08`: Varying Intensity & Varying Position (**FI & VI**)
 
 ### 📷 Sample Frame Snapshots
 
-*(Insert grid of frames here from different lighting conditions)*
+<img src="images/sample.jpg" alt="描述文字" width="1200"/>
 
-
+### 🔧 
 
 
 ## 📬 Contact
 
 For issues, suggestions, or collaborations:
-📧 Email: your_email@cqut.edu.cn
-
-
-
-## 🤝 Contributors
-
+📧 Email: zhipengli@stu.cqut.edu.cn
 
 ##  📚 Citation
 If you use this toolkit or the DCLN dataset, please cite:
 ````
 @article{your_paper,
   title={Happy-rPPG: A Toolkit and Dataset for Remote Photoplethysmography under Dynamic Lighting at Night},
-  author={Hanguang Xiao and others},
-  journal={Measurement},
+  author={},
+  journal={},
   year={2025}
 }
 ````
