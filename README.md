@@ -14,7 +14,7 @@
   - `v03`, `v07`: Fixed Intensity & Varying Position (**FI & VI**)
   - `v04`, `v08`: Varying Intensity & Varying Position (**FI & VI**)
   
-🔥Use `dataprocess/processDLCN.py` to process the raw data into `.h5` format and quickly validate it using the [Happy-rPPG Toolkit](https://github.com/dalaoplan/DLCN).
+🔥Use `dataprocess/processDLCN.py` to process the raw data into `.h5` format and quickly validate it using the [Happy-rPPG Toolkit](https://github.com/dalaoplan/Happy-rPPG-Toolkit).
 ### 📷 Sample Frame Snapshots
 
 <img src="images/sample.jpg" alt="描述文字" width="1200"/>
@@ -28,12 +28,7 @@ For issues, suggestions, or collaborations:
 📧 Email: zhipengli@stu.cqut.edu.cn
 
 ##  📚 Citation
-If you use this toolkit or the DCLN dataset, please cite:
+If you use this toolkit or the DLCN dataset, please cite:
 ````
-@article{your_paper,
-  title={Happy-rPPG: A Toolkit and Dataset for Remote Photoplethysmography under Dynamic Lighting at Night},
-  author={},
-  journal={},
-  year={2025}
-}
+TODO
 ````
